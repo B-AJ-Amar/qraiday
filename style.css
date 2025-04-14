@@ -1,0 +1,19 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#reader {
+    width: 600px;
+}
+
+@media screen and (max-width: 600px) {
+    #reader {
+        width: 100vw;
+    }
+}
+#result {
+    text-align: center;
+    font-size: 1.5rem;
+}
